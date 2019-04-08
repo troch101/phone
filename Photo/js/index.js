@@ -1,5 +1,5 @@
 $('.wp-inner').fullpage({
-  	start:2,
+  	start:0,
   	loop:true
   });
 
