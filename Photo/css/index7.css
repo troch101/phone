@@ -1,0 +1,233 @@
+.page7{
+    position: relative;
+    
+}
+.page7 .img7{
+     width:100%;
+     height:100%;
+     position:absolute;
+     z-index:-1;
+     opacity: 0;
+     
+}
+.cur.page7 .img7{
+    opacity: 1;
+    transition:1s all 1s;
+    
+}
+.page7_stu_phone{
+  text-align: center;
+  margin: .2rem 0;
+  font-size: .4rem;
+}
+.page7_stu_phone>span{
+  opacity: 0;
+  color: yellow; 
+  text-shadow:0 0 5px #CCCCCC, 0 0 10px #CCCCCC, 0 0 15px #CCCCCC, 0 0 20px #095816, 0 0 25px #095816, 0 0 30px #095816, 0 0 50px #095816, 0 0 80px #095816, 0 0 100px #095816, 0 0 150px #095816
+}
+@keyframes  ani{
+    0%{  opacity:0; }
+    100%{ opacity:1; }
+}
+.cur.page7 .page7_stu_phone span:nth-child(1){
+   animation: ani 1s 1.5s both;
+}
+.cur.page7 .page7_stu_phone span:nth-child(2){
+   animation: ani 1s 1.8s both;
+}
+.cur.page7 .page7_stu_phone span:nth-child(3){
+   animation: ani 1s 2.1s both;
+}
+.cur.page7 .page7_stu_phone span:nth-child(4){
+   animation: ani 1s 2.4s both;
+}
+
+
+.teacher_message{
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.teacher{
+  z-index: 100;
+  width: .43rem;
+  height: .46rem;
+  top: .05rem;
+  position: absolute;
+  
+}
+.teacher_message_1_i1{
+  border: 3px dotted  red;
+  transform: translate(0px,-50px);
+  opacity: 0;
+}
+.teacher_message_1{
+  min-height: 0.7rem;
+  position: relative;
+}
+
+.teacher_message_1_span1{
+  color: red;
+  opacity: 0;
+  transform: translate(-100px,0px);
+}
+
+.teacher_message_1_bg1{
+  width: 85%;
+  height: .7rem;
+  transform-style:preserve-3d;
+  position:relative;
+  opacity: 0;
+  transform:rotateY(0deg) translate(-100px,0px);
+}
+.t_word{
+  position: absolute;
+  top: .28rem;
+  left: 0.85rem;
+  z-index: 10;
+}
+
+
+.teacher_message_1_i2{
+  border: 3px dotted  pink;
+  transform: translate(0px,-50px);
+  opacity: 0;
+}
+.teacher_message_2{
+  min-height: 0.7rem;
+  position: relative;
+}
+
+.teacher_message_1_span2{
+  color: pink;
+  opacity: 0;
+  transform: translate(-100px,0px);
+}
+.teacher_message_1_bg2{
+  width: 85%;
+  height: .7rem;
+  transform-style:preserve-3d;
+  position:relative;
+  opacity: 0;
+  transform:rotateY(0deg) translate(-100px,0px);
+}
+
+.teacher_message_1_i3{
+  border: 3px dotted  blue;
+  transform: translate(0px,-50px);
+  opacity: 0;
+}
+.teacher_message_3{
+  min-height: 0.7rem;
+  position: relative;
+}
+.teacher_message_1_span3{
+  color: blue;
+  opacity: 0;
+  transform: translate(-100px,0px);
+}
+.teacher_message_1_bg3{
+  width: 85%;
+  height: .7rem;
+  transform-style:preserve-3d;
+  position:relative;
+  opacity: 0;
+  transform:rotateY(0deg) translate(-100px,0px);
+}
+
+.teacher_message_1_i4{
+  border: 3px dotted  green;
+  transform: translate(0px,-50px);
+  opacity: 0;
+}
+.teacher_message_4{
+  min-height: 0.7rem;
+  position: relative;
+}
+.teacher_message_1_span4{
+  color: green;
+  opacity: 0;
+  transform: translate(-100px,0px);
+}
+.teacher_message_1_bg4{
+  width: 85%;
+  height: .7rem;
+  transform-style:preserve-3d;
+  position:relative;
+  opacity: 0;
+  transform:rotateY(0deg) translate(-100px,0px);
+}
+
+.cur.page7 .teacher_message_1_span1{
+  opacity: 1;
+  transform: translate(0px,0px);
+  transition:1.5s all 3s; 
+}
+.cur.page7 .teacher_message_1_i1{
+  opacity: 1;
+  transform: translate(0px,0px);
+  transition:1s all 4s;
+}
+.cur.page7 .teacher_message_1_bg1{
+   opacity: 1;
+  transform:rotateY(180deg) translate(0px,0px);
+  transition:1.5s all 3s; 
+}
+
+.cur.page7 .teacher_message_1_span2{
+  opacity: 1;
+  transform: translate(0px,0px);
+  transition:1.5s all 3.5s; 
+}
+.cur.page7 .teacher_message_1_i2{
+  opacity: 1;
+  transform: translate(0px,0px);
+  transition:1s all 4.5s;
+}
+.cur.page7 .teacher_message_1_bg2{
+   opacity: 1;
+  transform:rotateY(180deg) translate(0px,0px);
+  transition:1.5s all 3.5s;
+}
+
+.cur.page7 .teacher_message_1_span3{
+  opacity: 1;
+  transform: translate(0px,0px);
+  transition:1.5s all 4s; 
+}
+.cur.page7 .teacher_message_1_i3{
+  opacity: 1;
+  transform: translate(0px,0px);
+  transition:1s all 5s; 
+}
+.cur.page7 .teacher_message_1_bg3{
+   opacity: 1;
+  transform:rotateY(180deg) translate(0px,0px);
+  transition:1.5s all 4s;
+}
+
+.cur.page7 .teacher_message_1_span4{
+  opacity: 1;
+  transform: translate(0px,0px);
+  transition:1.5s all 4.5s; 
+}
+.cur.page7 .teacher_message_1_i4{
+  opacity: 1;
+  transform: translate(0px,0px);
+  transition:1s all 5.5s; 
+}
+.cur.page7 .teacher_message_1_bg4{
+   opacity: 1;
+  transform:rotateY(180deg) translate(0px,0px);
+  transition:1.5s all 4.5s;
+}
+
+
+.rs{
+  opacity: 0;
+}
+.cur.page7 .rs{
+    transition:1.5s all 5s;
+    opacity: 1;
+    animation: moveto 3s linear infinite;
+}

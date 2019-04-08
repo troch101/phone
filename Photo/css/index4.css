@@ -1,0 +1,125 @@
+.page4 {
+    position: relative;
+    
+}
+.page4 .img4{
+     width:100%;
+     height:100%;
+     position:absolute;
+     z-index:-1;
+     transform: translate(1000px,0px) rotate(90deg);  
+}
+.cur.page4 .img4{
+    transition:1s all .5s;
+    transform: translate(0px,0px) rotate(0deg);
+}
+.stu_phone{
+  width: 100%;
+  height: 1rem;
+  text-align: center;
+  transform: translate(0,-100%)
+}
+.stu_phone>img{
+
+  height: 1rem;
+}
+
+.cur.page4 .stu_phone{
+  transition:1s all 1s;
+  transform: translate(0px,0px);
+}
+
+#Photo_wall{
+  height: 75%;
+   padding: .1rem;
+/*   background: #fff;*/
+   transform: scale(0);
+}
+#Photo_wall img{
+    border: 1px solid #fff;
+    margin-top: .05rem;
+    box-shadow: 0px 0px 3px #333333;
+}
+#Photo_wall img:nth-child(1)  {
+	transform: scale(0);
+   width: 55%;
+   height: 30%;
+   margin-right: .06rem;
+}
+#Photo_wall img:nth-child(2)  {
+   width: 40%;
+   height:30%;
+   transform: scale(0);
+}
+#Photo_wall img:nth-child(4)  {
+   width: 55%;
+   height: 30%;
+   transform: scale(0);
+   
+}
+#Photo_wall img:nth-child(3)  {
+   width: 40%;
+   height: 30%;
+   margin-right: .06rem;
+   transform: scale(0);
+}
+#Photo_wall img:nth-child(5)  {
+   width: 55%;
+   height: 30%;
+   margin-right: .06rem;
+   transform: scale(0);
+}
+#Photo_wall img:nth-child(6)  {
+   width: 40%;
+   height: 30%;
+   transform: scale(0);
+}
+/*photo*/
+.cur.page4 #Photo_wall{
+  transform: scale(1);
+  transition: 1s all 2s;
+}
+.cur.page4 #Photo_wall img:nth-child(1)  {
+
+   transform: scale(1);
+  transition: 1s all 2.5s;
+}
+.cur.page4 #Photo_wall img:nth-child(2)  {
+
+   transform: scale(1);
+  transition: 1s all 3s;
+}
+.cur.page4 #Photo_wall img:nth-child(4)  {
+
+   transform: scale(1);
+  transition: 1s all 4s;
+   
+}
+.cur.page4 #Photo_wall img:nth-child(3)  {
+
+   transform: scale(1);
+  transition: 1s all 3.5s;
+}
+.cur.page4 #Photo_wall img:nth-child(5)  {
+
+   transform: scale(1);
+  transition: 1s all 4.5s;
+}
+.cur.page4 #Photo_wall img:nth-child(6)  {
+
+   transform: scale(1);
+  transition: 1s all 5s;
+}
+
+.p4gif{
+  width: .5rem;
+  height: .4rem;
+  position: absolute;
+  right: .1rem;
+  bottom: 0rem;
+  opacity: 0;
+}
+.cur.page4 .p4gif{
+ opacity: 1;
+ transition: 1s all 6s;
+}
