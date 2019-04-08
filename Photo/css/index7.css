@@ -62,7 +62,7 @@
   opacity: 0;
 }
 .teacher_message_1{
-  min-height: 0.7rem;
+/*   min-height: 0.7rem; */
   position: relative;
 }
 
@@ -74,7 +74,7 @@
 
 .teacher_message_1_bg1{
   width: 85%;
-  height: .7rem;
+/*   height: .7rem; */
   transform-style:preserve-3d;
   position:relative;
   opacity: 0;
@@ -94,7 +94,7 @@
   opacity: 0;
 }
 .teacher_message_2{
-  min-height: 0.7rem;
+/*   min-height: 0.7rem; */
   position: relative;
 }
 
@@ -105,7 +105,7 @@
 }
 .teacher_message_1_bg2{
   width: 85%;
-  height: .7rem;
+/*   height: .7rem; */
   transform-style:preserve-3d;
   position:relative;
   opacity: 0;
@@ -118,7 +118,7 @@
   opacity: 0;
 }
 .teacher_message_3{
-  min-height: 0.7rem;
+/*   min-height: 0.7rem; */
   position: relative;
 }
 .teacher_message_1_span3{
@@ -128,7 +128,7 @@
 }
 .teacher_message_1_bg3{
   width: 85%;
-  height: .7rem;
+/*   height: .7rem; */
   transform-style:preserve-3d;
   position:relative;
   opacity: 0;
@@ -141,7 +141,7 @@
   opacity: 0;
 }
 .teacher_message_4{
-  min-height: 0.7rem;
+/*   min-height: 0.7rem; */
   position: relative;
 }
 .teacher_message_1_span4{
@@ -151,7 +151,7 @@
 }
 .teacher_message_1_bg4{
   width: 85%;
-  height: .7rem;
+/*   height: .7rem; */
   transform-style:preserve-3d;
   position:relative;
   opacity: 0;
